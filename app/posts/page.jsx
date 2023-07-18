@@ -2,9 +2,10 @@ import { ListOfPosts } from "./ListOfPost"
 
 export default async function Post ({params}) {
     return (
-        <section>
+        <div className="list-group" style={{width: '60rem', margin: 'auto', padding: '5rem'}}>
+
             <ListOfPosts />
-        </section>
+        </div>
         
     )
 };

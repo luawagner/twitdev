@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css" />
       </head>
-      <body>
+      <body >
       <Navigation />
         {children}
         </body>
